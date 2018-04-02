@@ -14,7 +14,7 @@ before_script:
 
 script:
     # Config Artifactory server  
-    - ./jfrog rt c 1 --interactive=false --url=http://mill.jfrog.info:12223/artifactory/ --user=admin --password=password
+    - ./jfrog rt c 1 --interactive=false --url=http://mill.jfrog.info:12056/artifactory/ --user=admin --password=password
     
     # Set timestamp var to be used as build numer
     - export RTBUILD_TS=$(date +%s)
